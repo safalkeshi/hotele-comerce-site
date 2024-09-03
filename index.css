@@ -2,6 +2,7 @@ body {
     background-color: gray;
 }
 
+/* black colour container  image needs to be fixed */
 .container.bg-dark.text-white {
     height: 800px;
     margin-top: 20px;
@@ -70,4 +71,19 @@ body {
     position: absolute;
     left: 70%;
     top: 850px;
+}
+
+/* rooms   error need to display rs and per night in same line*/
+#rooms {
+    height: 570px;
+    margin-top: 0;
+
+}
+
+.rooms {
+    display: inline;
+}
+
+.btn .btn-primary {
+    margin-bottom: 5px;
 }
