@@ -1,0 +1,39 @@
+/* Reset some default Bootstrap styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-box {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.blog .card {
+    transition: transform 0.3s;
+}
+
+.blog .card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #000;
+}
+
+footer a {
+    color: #fff;
+}
