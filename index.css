@@ -18,10 +18,11 @@ body {
 }
 
 #welcome {
+    font-size: 100px;
     position: absolute;
     color: wheat;
-    left: 30%;
-    top: 110px;
+    left: 15%;
+    top: 80px;
 }
 
 .img-fluid {
@@ -86,4 +87,14 @@ body {
 
 .btn .btn-primary {
     margin-bottom: 5px;
+}
+
+#AboutUs {
+    height: 600px;
+}
+
+#Footer {
+    margin-top: 0;
+    padding: 10px;
+    height: 50px;
 }
